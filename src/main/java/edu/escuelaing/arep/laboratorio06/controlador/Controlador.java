@@ -19,16 +19,26 @@ public class Controlador {
 	@Autowired
 	TrabajadoresGenerador trabajadoresGenerador;
 	
+	/**
+	 * Metodo encargado de responder al llamado de su mapeo con la lista de todos los trabajadores
+	 * @return ResponseEntity
+	 */
 	@RequestMapping(value="/trabajadores",method = RequestMethod.GET)
-	public ResponseEntity<?> listAllTasks(){
+	public ResponseEntity<?> listAllTrabajadores(){
 	    try {
 	        return new ResponseEntity<>(trabajadoresGenerador.ObtenerTrabajadores(),HttpStatus.ACCEPTED);
 	    } catch (Exception ex) {
 	        return new ResponseEntity<>("Lo sentimos, no se pudo obtener la lista.",HttpStatus.NOT_FOUND);
 	    }
-    }
+	}
+	
+	/**
+	 * Metodo encargado de responder al de su mapeo con la confirmacion de que a creado un nuevo trabajador
+	 * @param trabajador
+	 * @return
+	 */
 	@PostMapping("/trabajadores")
-    public ResponseEntity<?> createTask(@RequestBody Trabajador trabajador) {
+    public ResponseEntity<?> createTrabajador(@RequestBody Trabajador trabajador) {
         try {
         	trabajadoresGenerador.CrearTrabajador(trabajador);
             return new ResponseEntity<>(trabajador, HttpStatus.CREATED);

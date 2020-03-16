@@ -26,6 +26,7 @@ public class TrabajadoresGeneradorImpl implements TrabajadoresGenerador{
     @Autowired
 	private DataSource dataSource;
 
+
     @Override
     public List<Trabajador> ObtenerTrabajadores() throws SQLException {
         String query = "SELECT * FROM trabajador";

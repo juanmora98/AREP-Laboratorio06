@@ -19,6 +19,11 @@ public class DBConfiguracion {
 	@Value("${spring.datasource.password}")
 	private String dBPassword;
 	
+	/**
+	 * Metodo encargado de crear y generar todas las conexiones con la base de datos a travez de los datasources
+	 * @return
+	 * @throws SQLException
+	 */
 	@Bean
 	public DataSource dataSource() throws SQLException {
 		if (dBUrl == null || dBUrl.isEmpty()) {
