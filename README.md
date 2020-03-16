@@ -24,7 +24,7 @@ En este laboratorio se utilizaran los siguientes servicios: EC2, S3, VPC y RDS.
 El pdf añadido de nombre [Lab6](https://github.com/juanmora98/AREP-LABORATORIO5/blob/master/documents/lab5.pdf) se encuentra el diseño del proyecto.
 
 # JavaDoc
-[Documentacion](https://github.com/juanmora98/AREP-LABORATORIO5/tree/master/documents/apidocs) al darle click, se abrira la carpeta donde se encuentra los archivos generados por el javadocs.
+[Documentacion](https://github.com/juanmora98/AREP-Laboratorio06/tree/master/Recursos/apidocs) al darle click, se abrira la carpeta donde se encuentra los archivos generados por el javadocs.
 
 Asi mismo se encuentra el link del video tutorial de todo lo realizado en este laboratorio. [Trabajo Realizado](https://www.youtube.com/watch?v=mNrwpqJE46E&feature=youtu.be) al darle click, se abrira el video realizado.
 
