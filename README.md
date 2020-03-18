@@ -32,6 +32,7 @@ Asi mismo se encuentra el link del video tutorial de todo lo realizado en este l
 * [maven] - manejador de dependencias
 * [JAVA](https://www.java.com/es/download) - Framework
 * [JDK](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - Framework
+* [Sprig boot](https://spring.io/projects/spring-boot) - Framework
 
 
 ## Autor
